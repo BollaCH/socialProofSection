@@ -7,7 +7,7 @@
     width: 100%;
   }
   &__item {
-    width: 80%;
+    width: 85%;
     background-color: $color-light-grayish-magenta;
     margin-bottom: 2rem;
     padding: 1.4rem 2.8rem;
@@ -30,17 +30,17 @@
     display: inline-block;
     margin-right: 3rem;
     @include resposive {
-      display: block;
       margin-right: 0;
+      display: block;
     }
-
     & img {
-      margin: 0.5rem;
+      margin: 0 0.5rem;
     }
   }
   &__text {
     display: inline-block;
     font-weight: 700;
+
     color: $color-dark-magenta;
   }
 }
