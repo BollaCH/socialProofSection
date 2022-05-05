@@ -30,6 +30,7 @@
     display: inline-block;
     margin-right: 3rem;
     @include resposive {
+      display: block;
       margin-right: 0;
     }
 
