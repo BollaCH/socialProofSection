@@ -105,7 +105,7 @@ body {
 }
 
 .rating-card__item {
-  width: 85%;
+  width: 90%;
   background-color: #f7f2f7;
   margin-bottom: 2rem;
   padding: 1.4rem 2.8rem;
@@ -284,13 +284,13 @@ body {
 }
 
 body {
-  background: url(/images/bg-pattern-top-desktop.svg) no-repeat, url(/images/bg-pattern-bottom-desktop.svg) no-repeat;
+  background: url(../images/bg-pattern-top-desktop.svg) no-repeat, url(../images/bg-pattern-bottom-desktop.svg) no-repeat;
   background-position: top left, bottom right;
 }
 
 @media (max-width: 56.25em) {
   body {
-    background: url(/images/bg-pattern-top-mobile.svg) no-repeat, url(/images/bg-pattern-bottom-mobile.svg) no-repeat;
+    background: url(../images/bg-pattern-top-mobile.svg) no-repeat, url(../images/bg-pattern-bottom-mobile.svg) no-repeat;
     background-position: top left, bottom right;
   }
 }
