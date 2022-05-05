@@ -1,0 +1,21 @@
+body {
+  background: url(/images/bg-pattern-top-desktop.svg) no-repeat,
+    url(/images/bg-pattern-bottom-desktop.svg) no-repeat;
+  background-position: top left, bottom right;
+  @include resposive {
+    background: url(/images/bg-pattern-top-mobile.svg) no-repeat,
+      url(/images/bg-pattern-bottom-mobile.svg) no-repeat;
+    background-position: top left, bottom right;
+  }
+}
+.row {
+  display: flex;
+  margin-bottom: 8rem;
+  @include resposive {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+}

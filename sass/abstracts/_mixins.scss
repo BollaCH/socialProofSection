@@ -1,0 +1,6 @@
+@mixin resposive {
+  @media (max-width: 56.25em) {
+    //900px
+    @content;
+  }
+}

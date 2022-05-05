@@ -1,0 +1,26 @@
+.header {
+  width: 50%;
+  justify-content: flex-start;
+  padding-right: 11rem;
+  @include resposive {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 4rem;
+  }
+
+  &__title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    color: $color-dark-magenta;
+    @include resposive {
+      font-size: 4rem;
+    }
+  }
+  &__text {
+    font-weight: 700;
+    line-height: 1.6;
+    color: $color-dark-grayish-magenta;
+  }
+}

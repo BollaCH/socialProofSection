@@ -1,0 +1,66 @@
+// testemonials card
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  @include resposive {
+    flex-direction: column;
+  }
+
+  //   height: 240px;
+  &__card {
+    width: 32%;
+    background-color: $color-dark-magenta;
+    padding: 4rem 3rem;
+    border-radius: 9px;
+    @include resposive {
+      width: 100%;
+    }
+
+    &--1 {
+      align-self: flex-start;
+      margin-bottom: 4rem;
+      @include resposive {
+        margin: 1rem 0;
+      }
+    }
+    &--2 {
+      align-self: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      @include resposive {
+        margin: 1rem 0;
+      }
+    }
+    &--3 {
+      align-self: flex-end;
+      margin-top: 4rem;
+      @include resposive {
+        margin: 1rem 0;
+      }
+    }
+  }
+  &__header {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+  &__picture {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+  }
+  &__author {
+    font-size: 1.5rem;
+    color: rgba($color-white, 0.8);
+  }
+  &__tag {
+    color: rgba($color-soft-pink, 0.5);
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+  &__text {
+    font-weight: 500;
+    color: $color-light-grayish-magenta;
+  }
+}
