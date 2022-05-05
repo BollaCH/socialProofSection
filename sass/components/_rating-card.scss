@@ -12,6 +12,8 @@
     margin-bottom: 2rem;
     padding: 1.4rem 2.8rem;
     border-radius: 7px;
+    display: flex;
+    gap: 3rem;
     @include resposive {
       width: 100%;
     }
@@ -27,7 +29,6 @@
   }
   &__rating {
     display: inline-block;
-    margin-right: 3rem;
     @include resposive {
       margin-right: 0;
       display: block;
